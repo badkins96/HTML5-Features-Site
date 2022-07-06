@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="205"
+   height="205"
+   id="svg3668">
+  <defs
+     id="defs3670" />
+  <g
+     transform="translate(-246.07143,-609.86218)"
+     id="layer1">
+    <path
+       d="M 202.69086 99.549438 A 100.31915 100.31915 0 1 1  2.0525589,99.549438 A 100.31915 100.31915 0 1 1  202.69086 99.549438 z"
+       transform="matrix(0.1592546,0,0,0.1592546,332.26826,696.50846)"
+       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:12.55850697;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3690" />
+    <path
+       d="M 202.69086 99.549438 A 100.31915 100.31915 0 1 1  2.0525589,99.549438 A 100.31915 100.31915 0 1 1  202.69086 99.549438 z"
+       transform="matrix(1.0025323,0,0,1.0025323,245.94048,612.56065)"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.99494815;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3686" />
+    <path
+       d="M 202.69086 99.549438 A 100.31915 100.31915 0 1 1  2.0525589,99.549438 A 100.31915 100.31915 0 1 1  202.69086 99.549438 z"
+       transform="matrix(0.1243547,0,0,0.1243547,406.01312,628.27121)"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:16.08302689;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3692" />
+    <path
+       d="M 202.69086 99.549438 A 100.31915 100.31915 0 1 1  2.0525589,99.549438 A 100.31915 100.31915 0 1 1  202.69086 99.549438 z"
+       transform="matrix(5.332227e-2,0,0,5.332227e-2,413.28483,635.34245)"
+       style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:16.08302689;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3694" />
+    <path
+       d="M 202.69086 99.549438 A 100.31915 100.31915 0 1 1  2.0525589,99.549438 A 100.31915 100.31915 0 1 1  202.69086 99.549438 z"
+       transform="matrix(3.7977002e-2,0,0,3.7977002e-2,425.88829,631.73865)"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:16.08302689;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3696" />
+  </g>
+</svg>

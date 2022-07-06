@@ -1,0 +1,22 @@
+#image-map-large img {
+	width: 929px;
+	height: 606px;
+}
+
+#image-map-small {
+	display: none;
+}
+
+	#image-map-small img {
+		width: 400px;
+		height: 262px;
+	}
+
+@media only screen and (max-width: 900px) {
+	#image-map-large {
+		display: none;
+	}
+	#image-map-small {
+		display: block;
+	}
+}

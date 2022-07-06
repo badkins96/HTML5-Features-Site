@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title>Brandon's Scrapbook</title>
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/page_3.css">
+		<link rel="stylesheet" href="jquery/jquery-ui.min.css">
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="css/normalize.css">
+	</head>
+	<body>
+		<header>
+			<h1>Brandon's Scrapbook</h1>
+			<a href="index.html"><img src="assets/html5.svg" title="Home" /></a>
+		</header>
+		<nav>
+			<a href="page_1.html">Page 1</a>
+			<a href="page_2.html">Page 2</a>
+			<a id="current-page" href="page_3.html">Page 3</a>
+		</nav>
+		<main>
+			<section>
+				<p>The W3C is now leading the charge for many web technologies:</p>
+				<span id="image-map-large">
+					<img src="assets/w3c-2018-highlights.jpg" title="W3C 2018 Highlights" usemap="#image-map-large">
+					<map name="image-map-large">
+						<area shape="rect" coords="390,0,550,80" title="WebRTC" href="https://webrtc.org/" target="_blank">
+						<area shape="rect" coords="590,40,830,130" title="Web Assembly" href="https://webassembly.org/" target="_blank">
+						<area shape="rect" coords="690,185,926,262" title="WebPerf" href="https://www.w3.org/webperf/" target="_blank">
+						<area shape="rect" coords="695,340,900,415" title="Web Payments" href="https://www.w3.org/Payments/WG/" target="_blank">
+						<area shape="rect" coords="600,475,820,570" title="WebVR" href="https://webvr.info/" target="_blank">
+						<area shape="rect" coords="390,550,560,605" title="WebAuthn" href="https://www.w3.org/TR/webauthn/" target="_blank">
+						<area shape="rect" coords="15,470,335,570" title="Service Workers" href="https://serviceworke.rs/" target="_blank">
+						<area shape="rect" coords="5,340,225,415" title="Web Components" href="https://www.webcomponents.org/specs" target="_blank">
+						<area shape="rect" coords="20,185,230,265" title="MSE" href="https://www.w3.org/TR/media-source/" target="_blank">
+				</span>
+				<span id="image-map-small">
+					<img src="assets/w3c-2018-highlights.jpg" title="W3C 2018 Highlights" usemap="#image-map-small">
+					<map name="image-map-small">
+						<area shape="rect" coords="168,0,235,35" title="WebRTC" href="https://webrtc.org/" target="_blank">
+						<area shape="rect" coords="250,20,360,60" title="Web Assembly" href="https://webassembly.org/" target="_blank">
+						<area shape="rect" coords="295,80,400,115" title="WebPerf" href="https://www.w3.org/webperf/" target="_blank">
+						<area shape="rect" coords="300,145,390,180" title="Web Payments" href="https://www.w3.org/Payments/WG/" target="_blank">
+						<area shape="rect" coords="260,205,350,245" title="WebVR" href="https://webvr.info/" target="_blank">
+						<area shape="rect" coords="165,235,242,262" title="WebAuthn" href="https://www.w3.org/TR/webauthn/" target="_blank">
+						<area shape="rect" coords="5,200,145,245" title="Service Workers" href="https://serviceworke.rs/" target="_blank">
+						<area shape="rect" coords="0,142,100,180" title="Web Components" href="https://www.webcomponents.org/specs" target="_blank">
+						<area shape="rect" coords="10,80,100,115" title="MSE" href="https://www.w3.org/TR/media-source/" target="_blank">
+					</map>
+				</span>
+			</section>
+			<section>
+				<h2>Mission Statements & Goals</h2>
+				<div id="jquery-accordion">
+					<h3>WebRTC</h3>
+					<div>Provides browsers Real-Time Communications via simple APIs</div>
+					<h3>Web Assembly</h3>
+					<div>Binary instruction format for a stack-based virtual machine, allowing deployment on the web for client and server applications by being a portable target for compilation of high-level languages</div>
+					<h3>WebPerf</h3>
+					<div>Provide methods to observe and improve aspects of application performance of user agent features and APIs</div>
+					<h3>Web Payments</h3>
+					<div>Make payments easier and more secure on the Web</div>
+					<h3>WebVR</h3>
+					<div>Make it easier for everyone to get into VR experiences, no matter what device you have</div>
+					<h3>WebAuthn</h3>
+					<div>Standardize an interface for authenticating users to web-based applications and services</div>
+					<h3>Service Worker</h3>
+					<div>Enable applications to take advantage of persistent background processing, including hooks to enable bootstrapping of web applications while offline</div>
+					<h3>MSE</h3>
+					<div>Allow JavaScript to generate media streams for playback</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<p>Brandon Adkins - Project 3 - Spring 2019</p>
+		</footer>
+		<script src="jquery/jquery.min.js"></script>                                                                                                 
+		<script src="jquery/jquery-ui.min.js"></script>
+		<script type="text/javascript">
+			$('#jquery-accordion').accordion();
+		</script>
+	</body>
+</html>

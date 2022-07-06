@@ -1,0 +1,49 @@
+section img {
+	width: 100px;
+}
+
+#transformed-image-1 {
+	animation: transform-1 0.25s infinite alternate;
+}
+
+	@keyframes transform-1 {
+		0% {
+			transform: rotate(-5deg);
+			animation-timing-function: ease-in;
+		}
+		50% {
+			transform: rotate(1.5deg);
+			animation-timing-function: ease-out;
+		}
+	}
+
+#transformed-image-2 {
+	animation: transform-2 2.5s infinite alternate linear;
+}
+
+	@keyframes transform-2 {
+		0% {
+			transform: translateX(-100%) rotate(0deg);
+		}
+		100% {
+			transform: translateX(100%) rotate(300deg);
+		}
+	}
+
+
+#image-with-filter-1 {
+	filter: grayscale(100%);
+}
+
+#image-with-filter-2 {
+	animation: image-with-filter-2 5s infinite linear;
+}
+
+	@keyframes image-with-filter-2 {
+		0% {
+			filter: hue-rotate(0deg);
+		}
+		100% {
+			filter: hue-rotate(360deg);
+		}
+	}
